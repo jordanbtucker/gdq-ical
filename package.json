@@ -11,15 +11,11 @@
     "node": "^10.17 || ^12 || ^14"
   },
   "scripts": {
-    "coverage": "run-s -c tap tap-coverage",
     "eslint": "eslint --fix .",
     "lint": "run-s eslint prettier",
     "prettier": "prettier --loglevel warn --write **/*.{js,json,md,yml}",
-    "preversion": "npm test",
-    "start": "node lib",
-    "tap": "tap test -R spec",
-    "tap-coverage": "tap --coverage-report html",
-    "test": "run-s lint tap"
+    "preversion": "npm run lint",
+    "start": "node lib"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
