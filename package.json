@@ -1,6 +1,6 @@
 {
   "name": "gdq-ical",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Starting point for Node.js projects",
   "private": true,
   "main": "lib/index.js",
