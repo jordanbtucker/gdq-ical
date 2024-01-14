@@ -5,31 +5,30 @@ an iCal file.
 
 ## Requirements
 
-- Node.js v10.17, v12, or v14
+- Deno v1.39.1 or later
 
 ## Usage
 
-1.  Clone this repository, and run `npm install`.
+1.  Clone this repository.
 
-    ```bash
+    ```
     git clone https://github.com/jordanbtucker/gdq-ical.git
     cd gdq-ical
-    npm install
     ```
 
-2.  Copy `.env.example` to `.env` and set the desired environment variables in
+2.  Copy `.env.example` to `.env` and set the required environment variables in
     `.env`.
 
-    ```bash
+    ```
     cp .env.example .env
     ```
 
     Alternatively, set the environment variables via the shell or platform.
 
-3.  Run `npm start`.
+3.  Run `deno task start`.
 
-    ```bash
-    npm start
+    ```
+    deno task start
     ```
 
 If desired, use cron to run the script on a regular schedule. Fifteen minutes is

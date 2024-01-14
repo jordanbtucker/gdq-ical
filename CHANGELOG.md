@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+### BREAKING CHANGES
+
+- Moved to Deno from Node.js. Deno v1.39.1 or later is now required.
+- Added required `SCHEDULE_ID` environment variable and removed `SCHEDULE_PAGE`.
+- Made `OUT_FILE` a required environment variable.
+
 ## [1.0.0] - 2020-08-16
 
 ### Added

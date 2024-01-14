@@ -1,0 +1,13 @@
+{
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["explicit-function-return-type"]
+    }
+  },
+  "tasks": {
+    "cache": "deno cache --lock-write main.ts",
+    "lint": "deno lint -q",
+    "start": "deno run -A main.ts"
+  }
+}
