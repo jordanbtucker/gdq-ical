@@ -81,7 +81,7 @@ DTSTART:${formatDate(start)}
 DTEND:${formatDate(end)}
 DTSTAMP:${formatDate(now)}
 UID:${id}
-SUMMARY:${display_name}
+SUMMARY:${display_name} - ${category}
 DESCRIPTION:Runners: ${runnerNames}\\nRun Time: ${run_time}\\nCategory: ${category}\\nHosts: ${hostNames}\\nSetup Time: ${setup_time}
 CLASS:PUBLIC
 END:VEVENT

@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- The category is included in the event title.
+
 ## [2.0.0] - 2024-01-13
 
 ### BREAKING CHANGES
