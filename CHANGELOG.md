@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.0.0] - 2024-01-13
+
 ### BREAKING CHANGES
 
 - Moved to Deno from Node.js. Deno v1.39.1 or later is now required.
@@ -22,3 +24,4 @@ and this project adheres to
 
 [unreleased]: https://github.com/jordanbtucker/gdq-ical/commits/main/
 [1.0.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v1.0.0
+[2.0.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.0.0
