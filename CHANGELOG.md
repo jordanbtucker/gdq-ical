@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.1.0] - 2024-01-14
+
 ### Changed
 
 - The category is included in the event title.
@@ -29,3 +31,4 @@ and this project adheres to
 [unreleased]: https://github.com/jordanbtucker/gdq-ical/commits/main/
 [1.0.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v1.0.0
 [2.0.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.0.0
+[2.1.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.1.0
