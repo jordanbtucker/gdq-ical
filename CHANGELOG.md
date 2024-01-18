@@ -20,5 +20,5 @@ and this project adheres to
 
 - Initial code to output an iCal file
 
-[unreleased]: https://github.com/jordanbtucker/gdq-ical/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/jordanbtucker/gdq-ical/commits/main/
 [1.0.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v1.0.0
