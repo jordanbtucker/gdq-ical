@@ -67,6 +67,7 @@ for (const {
   display_name,
   runners,
   run_time,
+  console,
   setup_time,
   category,
   hosts,
@@ -82,7 +83,7 @@ DTEND:${formatDate(end)}
 DTSTAMP:${formatDate(now)}
 UID:${id}
 SUMMARY:${display_name} - ${category}
-DESCRIPTION:Runners: ${runnerNames}\\nRun Time: ${run_time}\\nCategory: ${category}\\nHosts: ${hostNames}\\nSetup Time: ${setup_time}
+DESCRIPTION:Runners: ${runnerNames}\\nRun Time: ${run_time}\\nCategory: ${category}\\nConsole: ${console}\\nHosts: ${hostNames}\\nSetup Time: ${setup_time}
 CLASS:PUBLIC
 END:VEVENT
 `;

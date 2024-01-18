@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- The console is included in the event description.
+
 ## [2.1.0] - 2024-01-14
 
 ### Changed
