@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.2.0] - 2024-01-18
+
 ### Added
 
 - The console is included in the event description.
@@ -36,3 +38,4 @@ and this project adheres to
 [1.0.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v1.0.0
 [2.0.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.0.0
 [2.1.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.1.0
+[2.2.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.2.0
