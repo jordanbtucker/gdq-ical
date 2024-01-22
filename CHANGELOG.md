@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.3.0] - 2024-01-21
+
 ### Added
 
 - The event location is now set to either a link to the VOD or a link to GDQ's
@@ -44,3 +46,4 @@ and this project adheres to
 [2.0.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.0.0
 [2.1.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.1.0
 [2.2.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.2.0
+[2.3.0]: https://github.com/jordanbtucker/gdq-ical/releases/tag/v2.3.0
