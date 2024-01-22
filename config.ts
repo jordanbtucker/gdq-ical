@@ -1,4 +1,4 @@
-import "npm:dotenv@^16.3.1/config";
+import "npm:dotenv@^16.3.2/config";
 
 const scheduleID = requireEnv("SCHEDULE_ID");
 const eventName = requireEnv("EVENT_NAME");
