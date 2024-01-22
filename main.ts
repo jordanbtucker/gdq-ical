@@ -95,8 +95,7 @@ DTEND:${formatDate(end)}
 DTSTAMP:${formatDate(now)}
 UID:${id}
 SUMMARY:${display_name} - ${category}
-DESCRIPTION:Runners: ${runnerNames}\\nRun Time: ${run_time}\\nCategory: ${category}\\nConsole: ${console}\\nHosts: ${hostNames}\\nSetup Time: ${setup_time}
-LOCATION: ${location}
+DESCRIPTION:Runners: ${runnerNames}\\nRun Time: ${run_time}\\nCategory: ${category}\\nConsole: ${console}\\nHosts: ${hostNames}\\nSetup Time: ${setup_time}\\n${location}
 CLASS:PUBLIC
 END:VEVENT
 `;

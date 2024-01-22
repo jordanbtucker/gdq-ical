@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Move VOD links to description instead of location.
+
 ## [2.3.0] - 2024-01-21
 
 ### Added
