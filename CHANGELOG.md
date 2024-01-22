@@ -8,6 +8,11 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- The event location is now set to either a link to the VOD or a link to GDQ's
+  Twitch channel.
+
 ## [2.2.0] - 2024-01-18
 
 ### Added

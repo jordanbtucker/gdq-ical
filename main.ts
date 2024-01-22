@@ -1,6 +1,8 @@
 import { eventName, outFile, scheduleID } from "./config.ts";
 import { dirname } from "./deps.ts";
 
+const DEFAULT_LOCATION = "https://www.twitch.tv/gamesdonequick";
+
 interface RunsResBody {
   count: number;
   results: RunsResBodyResult[];
@@ -23,7 +25,7 @@ interface RunsResBodyResult {
   setup_time: string;
   starttime: string;
   type: string;
-  video_links: unknown;
+  video_links?: RunsResBodyResultVideoLink[];
 }
 
 interface RunsResBodyResultHost {
@@ -42,6 +44,12 @@ interface RunsResBodyResultRunner {
   twitter: string;
   type: string;
   youtube: string;
+}
+
+interface RunsResBodyResultVideoLink {
+  id: number;
+  link_type: string;
+  url: string;
 }
 
 let ical = `BEGIN:VCALENDAR
@@ -71,11 +79,15 @@ for (const {
   setup_time,
   category,
   hosts,
+  video_links,
 } of body.results) {
   const start = new Date(starttime);
   const end = new Date(endtime);
   const runnerNames = runners.map(({ name }) => name).join(", ");
   const hostNames = hosts.map(({ name }) => name).join(", ");
+  const location =
+    video_links?.find(({ link_type }) => link_type === "youtube")?.url ??
+    DEFAULT_LOCATION;
 
   ical += `BEGIN:VEVENT
 DTSTART:${formatDate(start)}
@@ -84,6 +96,7 @@ DTSTAMP:${formatDate(now)}
 UID:${id}
 SUMMARY:${display_name} - ${category}
 DESCRIPTION:Runners: ${runnerNames}\\nRun Time: ${run_time}\\nCategory: ${category}\\nConsole: ${console}\\nHosts: ${hostNames}\\nSetup Time: ${setup_time}
+LOCATION: ${location}
 CLASS:PUBLIC
 END:VEVENT
 `;
