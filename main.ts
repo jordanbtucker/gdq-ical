@@ -61,7 +61,7 @@ X-PUBLISHED-TTL:PT15M
 `;
 
 const res = await fetch(
-  `https://gamesdonequick.com/tracker/api/v2/events/${scheduleID}/runs/`
+  `https://tracker.gamesdonequick.com/tracker/api/v2/events/${scheduleID}/runs/`
 );
 if (!res.ok) {
   throw new Error(`${res.status} ${res.statusText}`);
